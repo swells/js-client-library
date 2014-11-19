@@ -1,7 +1,7 @@
 JavaScript Client Library for DeployR 
 =====================================
 
-V Bump 1
+V Bump 2
 
 The JavaScript client library is a light-weight fluent API used to communicate 
 with DeployR from both the browser and Node.js environments. It is crafted for 
