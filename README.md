@@ -133,8 +133,8 @@ __Browser:__
 }	
 ```
 
-- Open your browser to _http://localhost:8080_ and select an example 
-`.html` file to run. All examples simply print to stdout.
+- Open your browser and select an example `.html` file to run. All examples 
+simply print to stdout viewable from your browser debug console.
 
 Alternatively, you can run the examples as is without moving them via the 
 embedded web server if you have [Node.js](http://nodejs.org/download/) installed:
@@ -148,7 +148,8 @@ embedded web server if you have [Node.js](http://nodejs.org/download/) installed
 `$ npm start`
 
 Open your browser to _http://localhost:8080_ and select a example 
-`.html` file to run. All examples simply print to the stdout.
+`.html` file to run. All examples simply print to stdout viewable from your 
+browser debug console.
 
 __Node.js:__
 
@@ -186,8 +187,8 @@ Installation
 4. `$ npm install` This will install the development tools needed to build locally.
 5. `$ npm run build` [or] `$ npm start`
 
-Shortcuts
----------
+Targets
+-------
 
  * `$ npm run build` Runs a build.
  * `npm start` Runs a build and starts a local webserver with LiveReload 
