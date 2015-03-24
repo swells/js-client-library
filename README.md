@@ -8,7 +8,7 @@ flexibility, readability, and a low learning curve.
 Links
 -----
 
-  * [Download](#installing)
+  * [Download](#downloading)
   * [User Guide Documentation](http://deployr.revolutionanalytics.com/documents/dev/client-jsdoc)
   * [API Documentation](http://deployr.revolutionanalytics.com/documents/dev/client-jsdoc/api/)
   * [Using](http://deployr.revolutionanalytics.com/documents/dev/client-jsdoc/#install)  
@@ -56,8 +56,8 @@ If your environment is Node then the entire root ```./deployr/``` directory
 represents the JavaScript client library as it uses the same source for both 
 environments.
 
-Using
-=====
+Installing
+==========
 
 Browser
 -------
@@ -134,12 +134,10 @@ __Browser:__
 ```
 
 - Open your browser to _http://localhost:8080_ and select an example 
-`.html` file to run. All examples simply print to the stdout.
+`.html` file to run. All examples simply print to stdout.
 
 Alternatively, you can run the examples as is without moving them via the 
-embedded web server if you have Node.js installed:
-
-`$ npm install --global gulp`
+embedded web server if you have [Node.js](http://nodejs.org/download/) installed:
 
 `$ npm install deployr`
 
