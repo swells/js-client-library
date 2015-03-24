@@ -185,13 +185,12 @@ Installation
 2. `$ npm install deployr`
 3. `$ cd ./deployr`
 4. `$ npm install` This will install the development tools needed to build locally.
-5. `$ npm run build` [or] `$ npm start`
 
 Targets
 -------
 
- * `$ npm run build` Runs a build.
- * `npm start` Runs a build and starts a local webserver with LiveReload 
+ * `$ npm run build` - Runs a build.
+ * `npm start` - Runs a build and starts a local webserver with LiveReload 
    on `http://localhost:8080` rebuilding on file changes.
 
 Destination
