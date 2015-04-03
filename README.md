@@ -16,7 +16,7 @@ deployr.script('/sean/root/reducer.R')
 
 #### Easy authenticated R code execution:
 
-```
+```js
 var r = 'x<-rnorm(10)';
 
 ruser.code(r)
@@ -27,7 +27,7 @@ ruser.code(r)
 
 #### Easy I/O to and from R:
 
-```
+```js
 deployr.script('/sean/root/shift.R')
   .numeric('x', 5)
   .logical('up', true)
