@@ -17,7 +17,7 @@ deployr.script('/sean/root/reducer.R')
 #### Easy authenticated R code execution:
 
 ```
-var r = 'x<-5';
+var r = 'x<-rnorm(10)';
 
 ruser.code(r)
   .end(function(res) {
@@ -35,7 +35,6 @@ deployr.script('/sean/root/shift.R')
   .end(function(res) {
      var objs = res.workspace('some_dataframe');
   });
-
 ```
 
 And much more...
