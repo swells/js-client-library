@@ -32,7 +32,7 @@ deployr.script('/sean/root/shift.R')
   .character('name', 'DeployR')
   .numeric('x', 5)
   .logical('up', true)
-  .routout('some_dataframe')
+  .routput('some_dataframe')
   .end(function(res) {
      var objs = res.workspace('some_dataframe');
   });
