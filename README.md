@@ -92,8 +92,7 @@ environments.
 Installing
 ==========
 
-Browser
--------
+### Browser
 
 Using the browser version:
 
@@ -114,8 +113,7 @@ Or
 <script src="./browser/deployr.min.js"></script>
 ```
 
-Node.js
--------
+### Node.js
 
 1. [Download and install](http://nodejs.org/download/) Node.js, which includes 
 npm. npm, which stands for _node packaged modules_, is a way to manage 
@@ -146,8 +144,7 @@ suit your needs as you explore the API.
 - __./examples/tutorial:__ Introduces the top-level R analytics services exposed 
 on the DeployR API.
 
-Running
--------
+### Running
 
 __Browser:__
 
