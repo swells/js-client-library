@@ -208,23 +208,20 @@ This section only pertains to the _Browser_ environment.
 
 Our dev and release builds are handled by [gulp.js](http://gulpjs.com/).
 
-Installation
-------------
+### Installation
 
 1. [Download and install](http://nodejs.org/download/) Node.js
 2. `$ npm install deployr`
 3. `$ cd ./deployr`
 4. `$ npm install` This will install the development tools needed to build locally.
 
-Targets
--------
+### Targets
 
  * `$ npm run build` - Runs a build.
  * `$ npm start` - Runs a build and starts a local webserver with LiveReload 
    on `http://localhost:8080` rebuilding on file changes.
 
-Destination
------------
+### Destination
 The browser build destination is located in the __./browser__ directory.
 
 Tests
