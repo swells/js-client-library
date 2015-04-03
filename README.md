@@ -5,6 +5,41 @@ The JavaScript client library is a light-weight fluent API used to communicate
 with DeployR from both the browser and Node.js environments. It is crafted for 
 flexibility, readability, and a low learning curve.
 
+### Easy anonymous R script execution:
+
+```
+deployr.script('/testuser/root/reducer.R')
+  .end(function(res) {
+     var artifacts = res.get('artifacts');
+  });
+```
+
+### Easy authenticated R code execution:
+
+```
+var r = 'x<-5';
+
+ruser.code(r)
+  .end(function(res) {
+     var out = res.get('console');
+  });
+```
+
+### Easy I/O to and from R:
+
+```
+deployr.script('/testuser/root/shift.R')
+  .numeric('x', 5)
+  .logical('up', true)
+  .routout('some_dataframe')
+  .end(function(res) {
+     var objs = res.workspace('some_dataframe');
+  });
+
+```
+
+And much more...
+
 Links
 -----
 
@@ -190,7 +225,7 @@ Targets
 -------
 
  * `$ npm run build` - Runs a build.
- * `npm start` - Runs a build and starts a local webserver with LiveReload 
+ * `$ npm start` - Runs a build and starts a local webserver with LiveReload 
    on `http://localhost:8080` rebuilding on file changes.
 
 Destination
