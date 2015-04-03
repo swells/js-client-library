@@ -29,6 +29,7 @@ ruser.code(r)
 
 ```js
 deployr.script('/sean/root/shift.R')
+  .character('name', 'DeployR')
   .numeric('x', 5)
   .logical('up', true)
   .routout('some_dataframe')
