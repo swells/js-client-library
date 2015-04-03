@@ -7,7 +7,7 @@ flexibility, readability, and a low learning curve.
 
 #### Easy anonymous R script execution:
 
-```
+```js
 deployr.script('/sean/root/reducer.R')
   .end(function(res) {
      var artifacts = res.get('artifacts');
