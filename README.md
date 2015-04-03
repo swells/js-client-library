@@ -73,8 +73,7 @@ It is __not__ a requirement for the browser however using the JavaScript client
 library from within a server or from the command line in addition to the browser
 can be powerful!
 
-Browser
--------
+### Browser
 
 If your environment is the browser the JavaScript client library can be found
 here:
@@ -84,8 +83,7 @@ here:
 ./deployr/browser/deployr.min.js
 ```
 
-Node.js
--------
+### Node.js
 
 If your environment is Node then the entire root ```./deployr/``` directory 
 represents the JavaScript client library as it uses the same source for both 
