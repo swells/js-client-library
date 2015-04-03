@@ -14,7 +14,7 @@ deployr.script('/sean/root/reducer.R')
   });
 ```
 
-### Easy authenticated R code execution:
+#### Easy authenticated R code execution:
 
 ```
 var r = 'x<-5';
@@ -25,7 +25,7 @@ ruser.code(r)
   });
 ```
 
-### Easy I/O to and from R:
+#### Easy I/O to and from R:
 
 ```
 deployr.script('/sean/root/shift.R')
